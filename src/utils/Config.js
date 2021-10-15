@@ -1,32 +1,32 @@
 class Config{
-    BASE_URL = "https://medical-store-backend.herokuapp.com/"
-    static loginUrl= this.BASE_URL + "api/gettoken/";
+    // BASE_URL = "https://medical-store-backend.herokuapp.com/"
+    static loginUrl= "https://medical-store-backend.herokuapp.com/api/gettoken/";
 
-    static refreshApiUrl= this.BASE_URL + "api/resfresh_token/";
+    static refreshApiUrl= "https://medical-store-backend.herokuapp.com/api/resfresh_token/";
 
-    static companyApiUrl= this.BASE_URL + "api/company/";
+    static companyApiUrl= "https://medical-store-backend.herokuapp.com/api/company/";
     
-    static homeApiUrl= this.BASE_URL + "api/home_api/";
+    static homeApiUrl= "https://medical-store-backend.herokuapp.com/api/home_api/";
 
-    static customerRequestApiUrl= this.BASE_URL + "api/customer_request/";
+    static customerRequestApiUrl= "https://medical-store-backend.herokuapp.com/api/customer_request/";
 
-    static medicineByNameApiUrl= this.BASE_URL + "api/medicinebyname/";
+    static medicineByNameApiUrl= "https://medical-store-backend.herokuapp.com/api/medicinebyname/";
 
-    static companyBankApiUrl= this.BASE_URL + "api/companybank/";
+    static companyBankApiUrl= "https://medical-store-backend.herokuapp.com/api/companybank/";
     
-    static generateBillApiUrl= this.BASE_URL + "api/generate_bill_api/";
+    static generateBillApiUrl= "https://medical-store-backend.herokuapp.com/api/generate_bill_api/";
 
-    static companyAccountApiUrl= this.BASE_URL + "api/companyaccount/";
+    static companyAccountApiUrl= "https://medical-store-backend.herokuapp.com/api/companyaccount/";
 
-    static companyOnly= this.BASE_URL + "api/companyonly/";
+    static companyOnly= "https://medical-store-backend.herokuapp.com/api/companyonly/";
 
-    static employeeApiUrl= this.BASE_URL + "api/employee/";
+    static employeeApiUrl= "https://medical-store-backend.herokuapp.com/api/employee/";
 
-    static medicineApiUrl= this.BASE_URL + "api/medicine/";
+    static medicineApiUrl= "https://medical-store-backend.herokuapp.com/api/medicine/";
 
-    static employeeSalaryApiUrl= this.BASE_URL + "api/employee_all_salary/";
+    static employeeSalaryApiUrl= "https://medical-store-backend.herokuapp.com/api/employee_all_salary/";
 
-    static employeeSalaryByIDApiUrl= this.BASE_URL + "api/employee_salaryby_id/";
+    static employeeSalaryByIDApiUrl= "https://medical-store-backend.herokuapp.com/api/employee_salaryby_id/";
 
     static homeUrl= "/home";
 
