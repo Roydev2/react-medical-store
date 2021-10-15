@@ -210,6 +210,18 @@ class Login extends React.Component{
 
                     </div>
                 </div>
+                <div style={{
+                        background: "#fd220a",
+                        color: "white",
+                        width: "100%",
+                        height: "40px",
+                        textAlign: "center",
+                    }}
+                >
+                <h5 style={{padding: "12px",}}>
+                Copyrigth &#xA9; 2021. Powered by Rody Ewane
+                </h5>
+            </div>
             </React.Fragment>
 
         )
