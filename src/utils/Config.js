@@ -1,31 +1,32 @@
 class Config{
-    static loginUrl= "http://127.0.0.1:8000/api/gettoken/";
+    BASE_URL = "https://medical-store-backend.herokuapp.com/"
+    static loginUrl= this.BASE_URL + "api/gettoken/";
 
-    static refreshApiUrl= "http://127.0.0.1:8000/api/resfresh_token/";
+    static refreshApiUrl= this.BASE_URL + "api/resfresh_token/";
 
-    static companyApiUrl= "http://127.0.0.1:8000/api/company/";
+    static companyApiUrl= this.BASE_URL + "api/company/";
     
-    static homeApiUrl= "http://127.0.0.1:8000/api/home_api/";
+    static homeApiUrl= this.BASE_URL + "api/home_api/";
 
-    static customerRequestApiUrl= "http://127.0.0.1:8000/api/customer_request/";
+    static customerRequestApiUrl= this.BASE_URL + "api/customer_request/";
 
-    static medicineByNameApiUrl= "http://127.0.0.1:8000/api/medicinebyname/";
+    static medicineByNameApiUrl= this.BASE_URL + "api/medicinebyname/";
 
-    static companyBankApiUrl= "http://127.0.0.1:8000/api/companybank/";
+    static companyBankApiUrl= this.BASE_URL + "api/companybank/";
     
-    static generateBillApiUrl= "http://127.0.0.1:8000/api/generate_bill_api/";
+    static generateBillApiUrl= this.BASE_URL + "api/generate_bill_api/";
 
-    static companyAccountApiUrl= "http://127.0.0.1:8000/api/companyaccount/";
+    static companyAccountApiUrl= this.BASE_URL + "api/companyaccount/";
 
-    static companyOnly= "http://127.0.0.1:8000/api/companyonly/";
+    static companyOnly= this.BASE_URL + "api/companyonly/";
 
-    static employeeApiUrl= "http://127.0.0.1:8000/api/employee/";
+    static employeeApiUrl= this.BASE_URL + "api/employee/";
 
-    static medicineApiUrl= "http://127.0.0.1:8000/api/medicine/";
+    static medicineApiUrl= this.BASE_URL + "api/medicine/";
 
-    static employeeSalaryApiUrl= "http://127.0.0.1:8000/api/employee_all_salary/";
+    static employeeSalaryApiUrl= this.BASE_URL + "api/employee_all_salary/";
 
-    static employeeSalaryByIDApiUrl= "http://127.0.0.1:8000/api/employee_salaryby_id/";
+    static employeeSalaryByIDApiUrl= this.BASE_URL + "api/employee_salaryby_id/";
 
     static homeUrl= "/home";
 
