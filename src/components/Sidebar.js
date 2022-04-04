@@ -2,6 +2,7 @@ import React from 'react';
 import usericon from "adminbsb-materialdesign/images/user.png";
 import Config from '../utils/Config';
 import { Link } from 'react-router-dom';
+// import "adminbsb-materialdesign/plugins/jquery-slimscroll/jquery.slimscroll";
 
 class Sidebar extends React.Component{
 
